@@ -39,7 +39,7 @@ if __name__ == '__main__':
     
     if not os.path.exists(DIR_NAME):
         os.mkdir(DIR_NAME)
-    path_to_file = os.getcwd() + '\\' + DIR_NAME + '\\'
+    path_to_file = os.path.join(os.getcwd(), DIR_NAME)
     
     hubble_collection_name = 'wallpaper'
     
